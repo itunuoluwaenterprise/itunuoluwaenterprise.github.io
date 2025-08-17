@@ -327,7 +327,7 @@ main{
     display: flex;
     background-color: white;
     padding: 2em;
-    height: 10em;
+    min-height: 10em;
     /* display: none; */
 }
 .feed_img{
@@ -753,4 +753,71 @@ main{
         margin-right: 0;
         display: block;
     } */
+}
+@media only screen and (max-width: 647px) {
+    .intro-img1 {
+        width: 100%;
+        height: 45em;
+    }
+    .about_me_img {
+        width: 100%;
+        height: 30em;
+    }
+    .jo_top .p-center p{
+        width: 100%;
+    }
+    .pro_com2_img {
+        width: 100%;
+        height: 29em;
+    }
+    /* .head-box1 > h4{
+        font-size: 0.9em;
+    } */
+    .head-box2{
+        width: 40%;
+    }
+    .head-box1{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 499px) {
+    .intro-img1 {
+        width: 100%;
+        height: 35em;
+    }
+    .about_me_img {
+        width: 100%;
+        height: 25em;
+    }
+    .pro_com2_img {
+        width: 100%;
+        height: 25em;
+    }
+    .foot_all{
+        display: block;
+    }
+    .foot_all1{
+        width: 100%;
+        padding-right: 10.2%;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 499px) {
+    .head-box1 > h4{
+        font-size: 0.94em;
+    }
+    .logo-img1{
+        width: 5em;
+        height: 2.5em;
+    }
+    .menu-img{
+        width: 2em;
+        height: 2em;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .head-box1 > h4{
+        font-size: 0.7em;
+    }
 }
